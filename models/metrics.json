@@ -1,0 +1,88 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.896,
+    "precision": 0.8961449144682669,
+    "recall": 0.8960902425200221,
+    "macro_f1": 0.8959990639915759,
+    "classification_report": {
+      "0": {
+        "precision": 0.8861508132084771,
+        "recall": 0.9067070095814422,
+        "f1-score": 0.8963110667996012,
+        "support": 1983.0
+      },
+      "1": {
+        "precision": 0.9061390157280568,
+        "recall": 0.8854734754586019,
+        "f1-score": 0.8956870611835507,
+        "support": 2017.0
+      },
+      "accuracy": 0.896,
+      "macro avg": {
+        "precision": 0.8961449144682669,
+        "recall": 0.8960902425200221,
+        "f1-score": 0.8959990639915759,
+        "support": 4000.0
+      },
+      "weighted avg": {
+        "precision": 0.8962298643289752,
+        "recall": 0.896,
+        "f1-score": 0.8959964119677076,
+        "support": 4000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1798,
+        185
+      ],
+      [
+        231,
+        1786
+      ]
+    ]
+  },
+  "linear_svm": {
+    "accuracy": 0.9,
+    "precision": 0.8999994749421123,
+    "recall": 0.8999842738637867,
+    "macro_f1": 0.8999909741854202,
+    "classification_report": {
+      "0": {
+        "precision": 0.8999494694290046,
+        "recall": 0.8981341401916288,
+        "f1-score": 0.8990408884401817,
+        "support": 1983.0
+      },
+      "1": {
+        "precision": 0.9000494804552202,
+        "recall": 0.9018344075359445,
+        "f1-score": 0.9009410599306588,
+        "support": 2017.0
+      },
+      "accuracy": 0.9,
+      "macro avg": {
+        "precision": 0.8999994749421123,
+        "recall": 0.8999842738637867,
+        "f1-score": 0.8999909741854202,
+        "support": 4000.0
+      },
+      "weighted avg": {
+        "precision": 0.8999998999889738,
+        "recall": 0.9,
+        "f1-score": 0.8999990499142548,
+        "support": 4000.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1781,
+        202
+      ],
+      [
+        198,
+        1819
+      ]
+    ]
+  }
+}

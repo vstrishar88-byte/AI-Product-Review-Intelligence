@@ -1,0 +1,2 @@
+cwd=C:\Users\HariharanVS\Desktop\AI product review intelligence
+python_ok
