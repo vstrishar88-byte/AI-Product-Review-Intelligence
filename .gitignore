@@ -3,6 +3,4 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-models/*.pkl
-models/*.joblib
 .DS_Store
